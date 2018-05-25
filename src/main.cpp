@@ -1258,9 +1258,9 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     // Inflation phase: Subsidy reaches minimum subsidy
     // Network is rewarded for transaction processing with transaction fees and 
     // the inflationary subsidy
-    if (nHeight == 1) {
+    if (nHeight <= 100) {
 
-            nSubsidy = 1365000000 * COIN;
+            nSubsidy = 13650000 * COIN;
 
         } else {
 
