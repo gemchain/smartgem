@@ -1,0 +1,2 @@
+# smartgem
+Smartgem Core
