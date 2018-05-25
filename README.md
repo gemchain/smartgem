@@ -3,7 +3,7 @@ This is SmartGem core client. This will be the tool to connect to SmartGem block
 
 #### Pre-requisite
 1. VPS with min 1GB RAM and 20GB HD space
-2. Fresh install Ubuntu 16.04 64bit
+2. Fresh install Ubuntu 16.04 64bit (no 32 bit. Overflow issues)
 3. Enough swap file e.g 2GB
 
 #### Preparing the server
