@@ -24,8 +24,8 @@ public:
     CMainParams() {
         // The message start string is designed to be unlikely to occur in normal data.
         pchMessageStart[0] = 0xc2;
-        pchMessageStart[1] = 0xb4;
-        pchMessageStart[2] = 0xc9;
+        pchMessageStart[1] = 0xc4;
+        pchMessageStart[2] = 0xb9;
         pchMessageStart[3] = 0xb4;
         nDefaultPort = 7422;
         nRPCPort = 7423;
