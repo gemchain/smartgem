@@ -27,8 +27,8 @@ public:
         pchMessageStart[1] = 0xb4;
         pchMessageStart[2] = 0xc9;
         pchMessageStart[3] = 0xb4;
-        nDefaultPort = 7420;
-        nRPCPort = 7421;
+        nDefaultPort = 7422;
+        nRPCPort = 7423;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
         nSubsidyHalvingInterval = 5256000;
 
