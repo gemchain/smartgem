@@ -67,7 +67,6 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0xdbdf0a4bce84aed87ec9d961af3d5eab506d88be3c379684a9e80b9494d3da71"));
 
         vSeeds.push_back(CDNSSeedData("node01.smart-gem.io", "node02.smart-gem.io"));
-        vSeeds.push_back(CDNSSeedData("node03.smart-gem.io", "smartgem.kcngtech.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 38;
         base58Prefixes[SCRIPT_ADDRESS] = 30;
